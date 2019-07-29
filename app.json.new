@@ -1,0 +1,41 @@
+{
+  "name": "SuperScript Express Bot",
+  "description": "SuperScript chat bot easily deployed to Heroku",
+  "keywords": [
+    "bot",
+    "express",
+    "superscript",
+    "chatbot",
+    "node"
+  ],
+  "repository": "https://github.com/bmann/superscript-heroku",
+  "success_url": "/superscript?message=hi",
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "bot": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "eml-bot",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
