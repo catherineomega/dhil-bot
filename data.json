@@ -8,12 +8,12 @@
             "keywords": [],
             "filter": null,
             "gambits": [
-                "L3PhhiDv"
+                "MjR3N2H5"
             ]
         }
     },
     "gambits": {
-        "L3PhhiDv": {
+        "MjR3N2H5": {
             "trigger": {
                 "flags": {},
                 "filter": "^hasTag('hello')",
@@ -22,12 +22,12 @@
                 "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
             },
             "replies": [
-                "HHv7mP8n",
-                "cP4UGgvf",
-                "n8X5hhNK",
-                "BMOKMg29",
-                "ITrNZZiO",
-                "rNM52RoZ"
+                "pjxGk3Zg",
+                "G1BoVAY7",
+                "MZOWr5XX",
+                "Kq4kLSQK",
+                "VNgVZd8o",
+                "0QZWji3n"
             ],
             "conditional": null,
             "conversation": null,
@@ -35,39 +35,39 @@
         }
     },
     "replies": {
-        "HHv7mP8n": {
-            "string": "Hi!",
+        "pjxGk3Zg": {
+            "string": "asdfHi!",
             "filter": null,
             "keep": false
         },
-        "cP4UGgvf": {
-            "string": "Hi, how are you?",
+        "G1BoVAY7": {
+            "string": "adsfHi, how are you?",
             "filter": null,
             "keep": false
         },
-        "n8X5hhNK": {
-            "string": "How are you?",
+        "MZOWr5XX": {
+            "string": "adsfHow are you?",
             "filter": null,
             "keep": false
         },
-        "BMOKMg29": {
-            "string": "Hello",
+        "Kq4kLSQK": {
+            "string": "adsfHello",
             "filter": null,
             "keep": false
         },
-        "ITrNZZiO": {
-            "string": "Howdy",
+        "VNgVZd8o": {
+            "string": "asdfHowdy",
             "filter": null,
             "keep": false
         },
-        "rNM52RoZ": {
-            "string": "Ola",
+        "0QZWji3n": {
+            "string": "afdOla",
             "filter": null,
             "keep": false
         }
     },
     "checksums": {
-        "./chat/main.ss": "39cbc28aebe38e26c8cf1b42243f1d6beb6eccb6"
+        "./chat/main.ss": "addf031af7d8e7317eb54f3df886f869f4aab2db"
     },
     "version": 1
 }
